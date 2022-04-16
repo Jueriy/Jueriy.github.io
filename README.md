@@ -1,2 +1,0 @@
-# Jueriy.github.io
- 
