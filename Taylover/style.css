@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+font-family:"Poppins",sans-serif;
+  background:#212529;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 5px 0px;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+.ts-intro {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.ts-intro span {
+    font-size: 19px;
+    color: #991015;
+}
+.ts-intro h1 {
+    color: #fff;
+    margin: 9px 0px 29px;
+    font-size: 37px;
+    line-height: 33px;
+}
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+  }
+  h2 {
+      font-size: 10px;
+      line-height: 28px;
+      color: #fff;
+    }
+ .ts-video{
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+   }
+
+  .album {
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+      }
+
+  .card{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .container-fluid {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .ts-events {
+    margin-bottom: 7em;
+    padding-right: 15px;
+    padding-left: 15px;
+    /*float: left;*/
+    width: 100%;
+  }
+  h1{
+    color: #fff
+  }
+    .social a{
+      font-size: 4.5rem;
+      padding: 3rem;
+    }
+    .fa-facebook{
+      color: #5b5998;
+    }
+    .fa-twitter{
+      color: #00aced;
+    }
+    .fa-google-plus-g{
+      color: #dd4b39;
+    }
+    .fa-instagram{
+      color: #517fa4;
+    }
+    .fa-youtube{
+      color: #bb0000;
+    }
+    .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover{
+      color: #d5d5d5;
+    }
+  }
+  .footer{
+    background:#000000
+  }
+hr{
+  background-color: #fff
+}
+h5{
+  color: #fff
+}
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+.ts-words{
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 100%;
+  }
+
+@media (min-width: 1400px) {
+  .container {
+    /*max-width: 1140px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+    /*max-width: 965px;*/
+  }
+}
+
+.ts-intro-img img {
+  width: 100%;
+}
+
+.ts-words .col-sm-12 {
+  margin-top: 28px;
+}
