@@ -30,6 +30,8 @@
 	<link rel="stylesheet" href="css/plugins.css">
 	<link rel="stylesheet" href="style.css">
 
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.eeyellow.Timeline.css" />
 	<!-- Cusom css -->
    <link rel="stylesheet" href="css/custom.css">
 
@@ -491,5 +493,16 @@
 	<script src="js/plugins.js"></script>
 	<script src="js/active.js"></script>
 
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.eeyellow.Timeline.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function () {
+					$('.VivaTimeline').vivaTimeline({
+							carousel: true,
+							carouselTime: 3000
+					});
+			});
+	</script>
 </body>
 </html>
